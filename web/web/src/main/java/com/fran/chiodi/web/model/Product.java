@@ -13,7 +13,7 @@ public class Product{
     @Id //primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private long id; // incremental id
+    private Long id; // incremental id
     //columns
     @Column(length = 1000)// adjust leng recived by the db
     private String title;
