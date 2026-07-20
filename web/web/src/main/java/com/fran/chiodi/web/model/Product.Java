@@ -18,3 +18,4 @@ public class FrontPage{
     @Column(lengnt = 1000) // adjust leng recived by the db
     private String title;
 }
+//debian12 test
