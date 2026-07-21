@@ -1,7 +1,5 @@
 package com.fran.chiodi.web.controller;
-//REST Controller: listen to the port for a extern app (like the front end), so when a HTTP petition is made (GET,POST,
-//PUT,DELETE) this controller talks with the Repo to do the changes on the db by JSON. maps /api/products
-//inyect the repo with a constructor, then create endpoints (routes that defines wich Java methods activates wich each petiton).
+
 import com.fran.chiodi.web.repository.ProductRepo;
 import com.fran.chiodi.web.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
